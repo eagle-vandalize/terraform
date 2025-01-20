@@ -1,0 +1,23 @@
+open source Infrastructure as a code tool.
+It enables you to define ,provision and manage infrastructure across multiple cloud providers using a declarative configuration language.
+
+
+------------------------
+It uses .tf extension.
+Format is HCL (Hashicorp Config Language)
+Declarative language.
+------------------------
+
+%% COMMANDS :-------------------------
+terrafort init
+terraform plan 
+terraform apply
+terraform destroy
+-------------------------
+
+%% STATE MANAGEMENT ----------------------
+The state file ( terraform.tfstate ) maintains a detailed record of the current state of managed resources. 
+
+----------------------------
+we can manage files by creating different files for different work like as variable file for storing variables and resource file for storing resources type etc and can directly used them like in java without importing them in other file , just create them in single folder.
+----------------------------
